@@ -1,0 +1,90 @@
+.footer-dark {
+  padding50px 0;
+  color#f0f9ff;
+  background-color#282d32;
+}
+
+.footer-dark h3 {
+  margin-top0;
+  margin-bottom12px;
+  font-weightbold;
+  font-size16px;
+}
+
+.footer-dark ul {
+  padding0;
+  list-stylenone;
+  line-height1.6;
+  font-size14px;
+  margin-bottom0;
+}
+
+.footer-dark ul a {
+  colorinherit;
+  text-decorationnone;
+  opacity0.6;
+}
+
+.footer-dark ul ahover {
+  opacity0.8;
+}
+
+@media (max-width767px) {
+  .footer-dark .itemnot(.social) {
+    text-aligncenter;
+    padding-bottom20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom36px;
+}
+
+@media (max-width767px) {
+  .footer-dark .item.text {
+    margin-bottom0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity0.6;
+  margin-bottom0;
+}
+
+.footer-dark .item.social {
+  text-aligncenter;
+}
+
+@media (max-width991px) {
+  .footer-dark .item.social {
+    text-aligncenter;
+    margin-top20px;
+  }
+}
+
+.footer-dark .item.social  a {
+  font-size20px;
+  width36px;
+  height36px;
+  line-height36px;
+  displayinline-block;
+  text-aligncenter;
+  border-radius50%;
+  box-shadow0 0 0 1px rgba(255,255,255,0.4);
+  margin0 8px;
+  color#fff;
+  opacity0.75;
+  padding7px;
+}
+
+.footer-dark .item.social  ahover {
+  opacity0.9;
+}
+
+.footer-dark .copyright {
+  text-aligncenter;
+  padding-top24px;
+  opacity0.3;
+  font-size13px;
+  margin-bottom0;
+}

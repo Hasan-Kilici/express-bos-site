@@ -1,0 +1,27 @@
+{
+  "name": "Express Boş site",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+ "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "fastify": "^3.27.0",
+    "fastify-formbody": "^5.2.0",
+    "fastify-static": "^4.5.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
